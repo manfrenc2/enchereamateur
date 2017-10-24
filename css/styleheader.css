@@ -1,0 +1,81 @@
+@import "bootstrap.min.css";
+@import "font-awesome.min.css";
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+
+
+body{
+	font-family: 'Quicksand', sans-serif;
+	background-color: rgb(228, 228, 239);
+
+}
+
+.imgback {
+	background-image: url("../img/tableau.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-bottom: 20%;
+}
+
+.connect {
+	padding-top: 1%;
+	margin-bottom: -1%;
+	color: #00ffe7 !important;
+	text-shadow: 0 0 3px #00fff3, 0 0 8px #00fff3;
+	font-size: 17px;
+}
+
+.form-control{
+
+	width: auto;
+}
+
+/****************** Début de la NAVBAR ******************/ 
+
+
+.hambouton { /* classe pour caché pour empêcher l'apparition du menu hamburger pour le responsive (modification plus tard dans les medias) */
+	display: none;
+}
+
+.menu { /* div sur laquelle le nouveau menu est mis en place et donc caché mais également modifié plus tard dans les medias */
+	display: none;
+}
+
+.barnav{  /*border à gauche sur le texte de la navbar, couleur du texte et ajustement, curseur selon le contexte */
+	background-color: #1fbdf9;
+	text-align: center;
+	padding: 1%;
+	
+}
+
+.barnav:hover{
+	background-color: #56c9f5;
+}
+
+
+
+
+/*#topnav {	 Couleur, placement, alignement, customisation de la topnav (barre noire)
+	background-color: #1fbdf9;
+	text-align: center;
+	padding-top: 1%;
+	padding-bottom: 3%;
+	
+} */
+#topnav div{ /* mode de rendu que les li doivent adopter */
+	display: inline-block;
+
+	 
+}
+/*#topnav a{      mise en forme du texte "accueil" 
+    font-weight: bold;
+}*/
+
+
+
+
+.whenconnected{ /* modification sur la partie droite "profil + déconnexion" */
+	display: inline;
+    padding-top: 7%;    
+    font-size: 10px;
+}

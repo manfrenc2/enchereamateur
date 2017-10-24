@@ -1,0 +1,5 @@
+
+
+	.form-control { /* adaptation des champs pour qu'il soit responsive */
+		width: 100%;
+	}

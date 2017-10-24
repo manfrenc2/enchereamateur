@@ -1,0 +1,43 @@
+
+/*********************************************************************/
+/*																	 */
+/*							FOOTER								 	 */
+/*																	 */
+/*********************************************************************/
+
+
+/* IMPORTANT : Ne pas oublier d'ajouter à chaque fin de page une balise fermante </main> et d'inclure juste après le FOOTER afin que ce dernier ne prenne pas les propriétés de <main> */
+
+
+
+a{ /* couleur des liens en blanc */
+	color: black;
+	text-decoration: none !important;
+}
+.foot2{  /* Couleur arriere plan, texte, et taille du texte, règle la taille du margin*/
+	background-color: #1FBDF9;
+    color:  #cfd2da;
+    font-size: x-small;
+    margin: 0;
+}
+.legal{  /* Placement des CGU CGV */
+	float: right;
+	display: inline;
+    padding-top: 1%;
+    vertical-align: top;
+    text-align: right;
+    width: 35%;
+}
+.copy2{ /* Placement des copyrights */
+	display: inline;
+    float: left;
+    padding-top: 1%;
+    vertical-align: top;
+    width: 35%;
+}
+.adresse2{ /* placement des coordonnées */
+	padding-top: 1%;
+    display: inline;
+    text-align: center;
+    width: 30%;
+}

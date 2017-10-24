@@ -1,0 +1,34 @@
+
+
+/**********************Tuiles****************************************/ 
+
+.main {
+	margin-top: 2%;
+}
+
+.tuiles {
+	/*height: 300px;*/
+	margin-bottom: 5%;
+	text-align: center;
+	background-color: #FFFFFF;
+}
+
+.imgt{
+	background-color: #EEEEF8;
+	overflow-x: scroll;
+}
+
+.img {
+	/*width: auto;*/
+	height: 15vw;
+}
+
+.descript {
+	text-align: left;
+	width: 100%;
+}
+
+
+
+
+

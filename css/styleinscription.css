@@ -1,0 +1,141 @@
+
+                   
+/* CSS pour la page d'inscription, début le 21/12/2016 */
+
+
+
+section{ /* Modication de la font pour toute la section */
+	font-family: 'Raleway',sans-serif;
+} 
+ 
+
+textarea{ /* Empèche le redimensionnement du textarea */
+	resize:none;
+	
+}
+/* couleur rouge sur les astérisques à côté des paragraphes*/
+.asterisque{
+	color: red;
+}
+/* classe de bootstrap sur le formulaire qui permet d'ajuster la taille des champs et de retirer le border */
+.form-control{
+
+	width: auto;
+}
+/* auto ajustement de la taille des select du formulaire*/
+.formation, .lieu, .theme{
+	width: auto;
+}
+
+
+/*.title{ /*  titre h1 en Arial, taille de la font, mise en gras, écartement entre les mots, couleur du titre, margin en haut et en bas, mise en place d'un border et décalement du texte par rapport au border 
+	font-family: Arial;
+	font-size: 43px;
+	font-weight: 600;
+    line-height: 40px;
+	color: #445561;
+	margin-bottom: 4%;
+    margin-top: 25px;
+	border-left: 11px solid #E32213;
+    padding-left: 11px;
+}*/
+
+
+/* Décale la div du bas pour aérer la page */
+.pad {/* pad correspond à la partie checkbox */
+	padding-top: 3%;
+	padding-bottom: 3%;
+	padding-left: 12%;
+}
+
+
+.form{/* div class="row form" */
+	margin: auto;/* centrage automatique du formulaire */
+}
+
+.colonne{/* classe sur les colonnes du formulaire pour les centrer */
+	margin-left: 10%;
+	width: 40%;
+	padding: 0 17px;
+}
+
+.modiflink{ /* Modification de la couleur des liens (blanc par défaut) */
+	color: #e5007e;
+}
+
+/* Mise en avant du numéro jeunesse et sport  */
+#red {
+	color: red;
+	font-weight: bold;
+	text-decoration: none;
+}
+#submit{ /* propriété pour que le bouton "valider" soit placer en dessous de la ligne "en cochant cette case(...)" */
+display: inherit;
+	
+}   
+
+label.error{/* Le message d'erreur affiché dans le formulaire */
+	color: red;
+}
+ 
+
+/* Responsive du site mobile */
+@media screen and (max-width: 767px){
+	.colonne{ /* Redimensionnement des propriétés de la classe afin d'améliorer le positionnement */
+		margin: 0;
+		width: 100%;
+		padding: 0;
+	}
+	.colonne > p{ /* aggrandir le paragraphe */
+		width: 122%;
+		font-size: 16px;
+	}
+
+	select{ /* redimensionnement des select*/
+		width: 90% !important;
+	}
+	.form{ /* redimensionne les textes pour que rien ne soit couper sur la droite */
+		width: 80%;
+	}
+	.title{ /* redimensionne le titre "inscription" */
+		font-size: 2em;
+	}
+	textarea{ /* la textarea déborde en responsive, alors initialisation d'une largeur */
+		width: 85%;
+	}
+	.form-control { /* adaptation des champs pour qu'il soit responsive */
+		width: 100%
+	}
+	.resphidden{ /* enlève les tooltipes sur mobile */
+		visibility: hidden;
+	}
+}
+
+
+@media screen and (max-width: 991px){
+
+	.colonne{
+		margin-left: 10%;
+		width: 100%;
+		font-size: 24px;
+	}
+
+	.colonne > p{ /* aggrandir le paragraphe */
+		width: 112%;
+		font-size: 16px;
+	}
+
+	select{ /* redimensionnement des select*/
+		width: 85%;
+	}
+	.col-md-6{ /* redimensionne le texte de tout les champ à remplir */
+		font-size: 12px;
+	}
+	.form-control { /* adaptation des champs pour qu'il soit responsive */
+		width: 80%
+	}
+	.resphidden{ /* enlève les tooltipes sur tablette */
+		visibility: hidden;
+	}
+
+}

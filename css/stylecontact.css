@@ -1,0 +1,64 @@
+/*********************************************************************/
+/*																	 */
+/*						NOUS CONTACTER							 	 */
+/*																	 */
+/*********************************************************************/
+
+
+
+section{ /* Modication de la font pour toute la section */
+	font-family: 'Raleway',sans-serif;
+	margin-bottom: 4%;
+} 
+
+textarea{ /* Empèche le redimensionnement du textarea */
+	resize:none;	
+}
+
+
+/*.title{   /* Initialisation du titre "Nous contacter" 
+	font-family: Arial;
+	font-size: 43px;
+	font-weight: 600;
+    line-height: 40px;
+	color: #445561;
+	margin-bottom: 4%;
+    margin-top: 25px;
+	border-left: 11px solid #e32213;
+    padding-left: 11px;
+	text-transform: uppercase;
+}*/
+
+
+.horaire{ /* centre le texte contenant "nos horaires d'ouvertures" */
+ 	text-align: center;
+}
+
+.form-control2{
+	width: 100%;
+}
+
+
+
+/* Responsive du site mobile */
+@media screen and (max-width: 767px){
+	
+	form{ /* rétrécit le formulaire afin de l'adapter sur les petits écrans  */
+		margin: auto;
+		width: 80%;
+	}    
+
+	.horaire{ /* Adapte le "nos horaires d'ouvertures" afin de le rendre plus propre sur la page*/
+		width: 95%;
+	}
+	
+	.responcenter{ /* centre la maps en mode paysage */
+		text-align: center;
+	}
+	
+	.row{ /* Surcharge de la classe bootstrap pour éviter que la section dépasse sur le margin */
+		margin-right: 0px;
+		margin-left: 0px;
+}
+	}
+}

@@ -1,0 +1,199 @@
+/*********************************************************************/
+/*																	 */
+/*							   INDEX								 */
+/*																	 */
+/*********************************************************************/
+
+/*body {
+  background: #333;
+  padding: 70px 0;
+  font: 15px/20px Arial, sans-serif;
+}*/
+
+/**********************Slider 3d**************************************/ 
+
+/*.container2 {
+  margin: 0 auto;
+  width: 250px;
+  height: 200px;
+  position: relative;
+  perspective: 1000px;  distance entre l'utilisateur et container2 
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.carousel {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  transform-style: preserve-3d;  traite le contenue du carousel en 3 dimentions 
+  transition: transform 1s;
+}
+.carousel div {
+  transform-style: preserve-3d;
+  
+}
+
+.item {
+  display: block;
+  position: absolute;
+  background: #000;
+  width: 250px;
+  height: 200px;
+  line-height: 200px;
+  font-size: 5em;
+  text-align: center;
+  color: #FFF;
+  opacity: 0.95;
+  transition: transform 1s;
+}
+
+
+.a {
+  transform: rotateY(0deg) translateZ(230px);
+}
+.a .item {
+  background: transparent;
+
+}
+.b {
+  transform: rotateY(120deg) translateZ(230px)  rotateY(-120deg);
+}
+.b .item {
+  background: transparent;
+
+}
+.c {
+  transform: rotateY(240deg) translateZ(230px) rotateY(-240deg);
+} 
+.c .item {
+  background: transparent;
+
+}*/
+
+.container2 {
+  margin: 0 auto;
+
+  height: 200px;
+  position: relative;
+  margin-top: 9vw;
+  
+}
+
+.carousel{-webkit-perspective: 1000px;
+          perspective: 1000px;
+		-webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;}
+
+#imgs {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-transform-origin: 0 0 -25vw;
+          transform-origin: 0 0 -25vw;
+}
+#imgs a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20vw;
+  -webkit-transform-origin: 50% 50% -25vw;
+          transform-origin: 50% 50% -25vw;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+          transform: translate3d(-50%, -50%, 0);
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+}
+
+#imgs a:nth-child(1) {
+  -webkit-transform: translate3d(-50%, -50%, 0) rotate3d(0, 1, 0, 0deg);
+          transform: translate3d(-50%, -50%, 0) rotate3d(0, 1, 0, 0deg);
+}
+
+#imgs a:nth-child(2) {
+  -webkit-transform: translate3d(-50%, -50%, 0) rotate3d(0, 1, 0, 72deg);
+          transform: translate3d(-50%, -50%, 0) rotate3d(0, 1, 0, 72deg);
+}
+
+#imgs a:nth-child(3) {
+  -webkit-transform: translate3d(-50%, -50%, 0) rotate3d(0, 1, 0, 144deg);
+          transform: translate3d(-50%, -50%, 0) rotate3d(0, 1, 0, 144deg);
+}
+
+#imgs a:nth-child(4) {
+  -webkit-transform: translate3d(-50%, -50%, 0) rotate3d(0, 1, 0, 216deg);
+          transform: translate3d(-50%, -50%, 0) rotate3d(0, 1, 0, 216deg);
+}
+
+#imgs a:nth-child(5) {
+  -webkit-transform: translate3d(-50%, -50%, 0) rotate3d(0, 1, 0, 288deg);
+          transform: translate3d(-50%, -50%, 0) rotate3d(0, 1, 0, 288deg);
+}
+
+/*#imgs img:nth-child(6) {
+  -webkit-transform: translate3d(-50%, -50%, 0) rotate3d(0, 1, 0, 180deg);
+          transform: translate3d(-50%, -50%, 0) rotate3d(0, 1, 0, 180deg);
+}
+
+#imgs img:nth-child(7) {
+  -webkit-transform: translate3d(-50%, -50%, 0) rotate3d(0, 1, 0, 216deg);
+          transform: translate3d(-50%, -50%, 0) rotate3d(0, 1, 0, 216deg);
+}
+
+#imgs img:nth-child(8) {
+  -webkit-transform: translate3d(-50%, -50%, 0) rotate3d(0, 1, 0, 252deg);
+          transform: translate3d(-50%, -50%, 0) rotate3d(0, 1, 0, 252deg);
+}
+
+#imgs img:nth-child(9) {
+  -webkit-transform: translate3d(-50%, -50%, 0) rotate3d(0, 1, 0, 288deg);
+          transform: translate3d(-50%, -50%, 0) rotate3d(0, 1, 0, 288deg);
+}
+
+#imgs img:nth-child(10) {
+  -webkit-transform: translate3d(-50%, -50%, 0) rotate3d(0, 1, 0, 324deg);
+          transform: translate3d(-50%, -50%, 0) rotate3d(0, 1, 0, 324deg);
+}
+
+#imgs img:nth-child(11) {
+  -webkit-transform: translate3d(-50%, -50%, 0) rotate3d(0, 1, 0, 360deg);
+          transform: translate3d(-50%, -50%, 0) rotate3d(0, 1, 0, 360deg);
+}*/
+
+
+.imgca{
+	width: 100%;
+	height: 15vw;
+}
+
+
+/**********************Tuiles****************************************/ 
+
+.tuiles {
+	/*height: 300px;*/
+	margin-bottom: 5%;
+	text-align: center;
+	background-color: #FFFFFF;
+}
+
+.imgt{
+	background-color: #EEEEF8;
+	overflow-x: scroll;
+}
+
+.img {
+	/*width: auto;*/
+	height: 15vw;
+}
+
+.descript {
+	text-align: left;
+	width: 100%;
+}
+
+
+
+
+

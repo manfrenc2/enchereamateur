@@ -1,0 +1,6 @@
+ErrorDocument 400 http://jean-patrick-enchere.alwaysdata.net/enchereamateur/erreur_400.php
+ErrorDocument 401 http://jean-patrick-enchere.alwaysdata.net/enchereamateur/erreur_401.php
+ErrorDocument 403 http://jean-patrick-enchere.alwaysdata.net/enchereamateur/erreur_403.php
+ErrorDocument 404 http://jean-patrick-enchere.alwaysdata.net/enchereamateur/erreur_404.php
+ErrorDocument 500 http://jean-patrick-enchere.alwaysdata.net/enchereamateur/erreur_500.php
+ErrorDocument 502 http://jean-patrick-enchere.alwaysdata.net/enchereamateur/erreur_502.php
